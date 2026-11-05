@@ -1,5 +1,5 @@
 {% set name = "solarwindpy" %}
-{% set version = "0.4.1" %}
+{% set version = "0.5.0" %}
 {% set python_min = "3.12" %}
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/solarwindpy-{{ version }}.tar.gz
-  sha256: 82b725800a30a1281ebdf4434d118df114f383433410a58cd0c0af93771c39af
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/solarwindpy-{{ version }}.tar.gz
+  sha256: e42cedec4f0abf0b6cd490d0be0226033e4967ebbff528bcf1d0efa8622441da
 
 build:
   noarch: python
